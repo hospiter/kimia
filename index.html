@@ -6,114 +6,350 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>کیمیا | دانشجوی دندانپزشکی</title>
 
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style-kimia.css">
 </head>
 
 <body>
 
-    <section class="hero">
-
-        <div class="container">
-
-            <img src="images/kimia.jpg" alt="کیمیا" class="profile-img">
-
-            <h1>کیمیا</h1>
-
-            <h2>دانشجوی دندانپزشکی دانشگاه علوم پزشکی مشهد</h2>
-
-            <p>
-                سلام ✨
-                من کیمیا هستم، ۲۱ ساله و متولد ۱۳۸۱.
-                دانشجوی رشته دندانپزشکی دانشگاه علوم پزشکی مشهد و علاقه‌مند
-                به سلامت دهان و دندان، پژوهش و یادگیری مهارت‌های نوین درمانی.
-            </p>
-
+    <!-- HEADER -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-tooth"></i>
+                </div>
+                <div>
+                    <h1>کیمیا</h1>
+                    <p>دانشجوی دندانپزشکی</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">خانه</a></li>
+                    <li><a href="#about">درباره من</a></li>
+                    <li><a href="#services">فعالیت‌ها</a></li>
+                    <li><a href="#blog">وبلاگ</a></li>
+                    <li><a href="#contact">ارتباط</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-    </section>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
 
-    <section class="about">
+            <div class="hero-text">
+                <span class="badge">
+                    <i class="fas fa-user-graduate"></i>
+                    Dentistry Student — Mashhad University of Medical Sciences
+                </span>
 
-        <div class="container">
+                <h2>کیمیا</h2>
 
-            <h2 class="section-title">درباره من</h2>
+                <!-- عکس موبایل -->
+                <div class="hero-image hero-image-mobile">
+                    <div class="img-wrapper">
+                        <img src="images/kimia.jpg" alt="کیمیا" class="profile-img">
+                        <div class="img-badge">
+                            <i class="fas fa-tooth"></i>
+                            <span>Dentistry Student</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="card">
+                <h3 class="hero-sub">دانشجوی دندانپزشکی دانشگاه علوم پزشکی مشهد</h3>
 
                 <p>
-                    هدف من تبدیل شدن به یک دندانپزشک حرفه‌ای و دلسوز است که بتواند
-                    با دانش و مهارت خود به سلامت و زیبایی لبخند افراد کمک کند.
+                    سلام! من کیمیا هستم، ۲۱ ساله و متولد ۱۳۸۱.
+                    دانشجوی رشته دندانپزشکی دانشگاه علوم پزشکی مشهد
+                    و علاقه‌مند به سلامت دهان، پژوهش و یادگیری مهارت‌های نوین درمانی.
                 </p>
 
+                <div class="hero-meta">
+                    <span><i class="fas fa-map-marker-alt"></i> مشهد، ایران</span>
+                    <span><i class="fas fa-university"></i> دانشگاه علوم پزشکی مشهد</span>
+                    <span><i class="fas fa-calendar"></i> متولد ۱۳۸۱</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">
+                        <i class="fas fa-user"></i>
+                        درباره من
+                    </a>
+                    <a href="#blog" class="btn-outline">
+                        <i class="fas fa-newspaper"></i>
+                        مطالعه وبلاگ
+                    </a>
+                </div>
+            </div>
+
+            <!-- عکس دسکتاپ -->
+            <div class="hero-image hero-image-desktop">
+                <div class="img-wrapper">
+                    <img src="images/kimia.jpg" alt="کیمیا" class="profile-img">
+                    <div class="img-badge">
+                        <i class="fas fa-tooth"></i>
+                        <span>Dentistry Student</span>
+                    </div>
+                </div>
             </div>
 
         </div>
-
     </section>
 
-    <section class="interests">
-
+    <!-- ABOUT -->
+    <section class="about" id="about">
         <div class="container">
 
-            <h2 class="section-title">علاقه‌مندی‌ها</h2>
+            <div class="section-title">
+                <span class="section-label">بیشتر بدانید</span>
+                <h2>درباره من</h2>
+            </div>
 
-            <div class="grid">
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        من <strong>کیمیا</strong> هستم؛ دانشجوی دندانپزشکی
+                        دانشگاه علوم پزشکی مشهد. از کودکی به دنیای پزشکی
+                        علاقه داشتم و امروز در مسیری هستم که رویایم بوده.
+                    </p>
+                    <p>
+                        هدف من تبدیل شدن به یک دندانپزشک حرفه‌ای و دلسوز است
+                        که با دانش و مهارت خود به سلامت و زیبایی لبخند افراد کمک کند.
+                        علاقه‌مند به دندانپزشکی زیبایی، ارتودنسی و پژوهش‌های علمی هستم.
+                    </p>
+                    <p>
+                        تلاش می‌کنم دانش دانشگاهی را با آگاهی‌بخشی عمومی
+                        درباره بهداشت دهان و دندان ترکیب کنم.
+                    </p>
 
-                <div class="card">
-                    🦷 سلامت دهان و دندان
+                    <div class="skills-row">
+                        <span class="skill-tag">دندانپزشکی زیبایی</span>
+                        <span class="skill-tag">ارتودنسی</span>
+                        <span class="skill-tag">بهداشت دهان</span>
+                        <span class="skill-tag">آموزش سلامت</span>
+                        <span class="skill-tag">تولید محتوا</span>
+                        <span class="skill-tag">پژوهش علمی</span>
+                    </div>
                 </div>
 
-                <div class="card">
-                    📚 پژوهش و یادگیری
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>دندانپزشکی</h3>
+                        <p>رشته تحصیلی</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-university"></i>
+                        <h3>مشهد</h3>
+                        <p>دانشگاه علوم پزشکی</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-flask"></i>
+                        <h3>پژوهش</h3>
+                        <p>مطالعات علمی</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-tooth"></i>
+                        <h3>لبخند</h3>
+                        <p>سلامت دهان</p>
+                    </div>
                 </div>
-
-                <div class="card">
-                    ✨ زیبایی لبخند
-                </div>
-
-                <div class="card">
-                    👩‍⚕️ مراقبت از بیماران
-                </div>
-
             </div>
 
         </div>
-
     </section>
 
-    <section class="education">
-
+    <!-- SERVICES -->
+    <section class="services" id="services">
         <div class="container">
 
-            <h2 class="section-title">تحصیلات</h2>
+            <div class="section-title">
+                <span class="section-label">حوزه‌های تخصصی</span>
+                <h2>فعالیت‌ها و علایق علمی</h2>
+            </div>
 
-            <div class="card">
-                <h3>دندانپزشکی</h3>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>دندانپزشکی زیبایی</h3>
+                    <p>
+                        آشنایی با روش‌های نوین زیباسازی لبخند
+                        و بهبود ظاهر دندان‌ها.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>پژوهش علمی</h3>
+                    <p>
+                        مشارکت در مطالعات علمی و آشنایی با
+                        روش‌های تحقیق در دندانپزشکی.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book-medical"></i>
+                    </div>
+                    <h3>آموزش بهداشت</h3>
+                    <p>
+                        تولید محتوای آموزشی درباره بهداشت
+                        دهان و دندان و پیشگیری از پوسیدگی.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>مطالعه مقالات</h3>
+                    <p>
+                        پیگیری آخرین یافته‌های علمی
+                        در حوزه دندانپزشکی و بهداشت دهان.
+                    </p>
+                </div>
+            </div>
 
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog" id="blog">
+        <div class="container">
+
+            <div class="section-title">
+                <span class="section-label">دانش و آگاهی</span>
+                <h2>آخرین مطالب وبلاگ</h2>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="blog-cat">بهداشت دهان</div>
+                    <h3>مسواک زدن صحیح</h3>
+                    <p>
+                        روش درست مسواک زدن و انتخاب
+                        مسواک مناسب برای سلامت دندان‌ها.
+                    </p>
+                    <a href="#" class="blog-link">
+                        مطالعه مقاله
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="blog-cat">زیبایی لبخند</div>
+                    <h3>سفید کردن دندان‌ها</h3>
+                    <p>
+                        روش‌های ایمن و موثر برای سفید کردن
+                        دندان‌ها و نکات مهم آن.
+                    </p>
+                    <a href="#" class="blog-link">
+                        مطالعه مقاله
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="blog-cat">پیشگیری</div>
+                    <h3>پیشگیری از پوسیدگی</h3>
+                    <p>
+                        راهکارهای عملی برای جلوگیری از
+                        پوسیدگی دندان در کودکان و بزرگسالان.
+                    </p>
+                    <a href="#" class="blog-link">
+                        مطالعه مقاله
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h2>ارتباط با من</h2>
                 <p>
-                    دانشگاه علوم پزشکی مشهد
+                    برای همکاری علمی، فعالیت‌های پژوهشی
+                    یا ارتباط در زمینه تولید محتوای سلامت دهان
+                    می‌توانید با من در تماس باشید.
                 </p>
+                <a href="contact-kimia.html" class="btn btn-white">
+                    <i class="fas fa-paper-plane"></i>
+                    ارسال پیام
+                </a>
             </div>
-
         </div>
-
     </section>
 
+    <!-- FOOTER -->
     <footer>
-
         <div class="container">
+            <div class="footer-content">
 
-            <p>
-                © 2025 Kimia
-            </p>
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-tooth"></i>
+                        <h3>کیمیا</h3>
+                    </div>
+                    <p>
+                        دانشجوی دندانپزشکی دانشگاه علوم پزشکی مشهد
+                        و علاقه‌مند به پژوهش، آموزش سلامت دهان و دندانپزشکی زیبایی.
+                    </p>
+                </div>
 
+                <div class="footer-column">
+                    <h3>لینک‌ها</h3>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-left"></i> خانه</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-left"></i> درباره من</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-left"></i> فعالیت‌ها</a></li>
+                        <li><a href="#blog"><i class="fas fa-chevron-left"></i> وبلاگ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>شبکه‌های اجتماعی</h3>
+                    <p style="margin-bottom:16px;opacity:.7;font-size:14px;">در شبکه‌های اجتماعی دنبال کنید</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" rel="noopener" aria-label="اینستاگرام">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="تلگرام">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" aria-label="لینکدین">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                © ۲۰۲۵ کیمیا — تمامی حقوق محفوظ است
+            </div>
         </div>
-
     </footer>
 
 </body>
-
 </html>
